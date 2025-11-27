@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/src/linux-headers-6.8.0-87-generic/include/generated",
+        "/usr/src/linux-headers-6.8.0-87-generic/arch/x86/include/generated",
+        "/usr/src/linux-headers-6.8.0-87-generic/include",
+        "/usr/src/linux-headers-6.8.0-87-generic/arch/x86/include",
+        "/usr/lib/gcc-11/x86_64-linux-gnu/*/include",
+        "/usr/include"
+      ],
+      "defines": ["__KERNEL__", "MODULE", "__GNUC__"],
+      "compilerPath": "/usr/bin/gcc-11",
+      "cStandard": "gnu11",
+      "cppStandard": "gnu++14",
+      "intelliSenseMode": "linux-gcc-x64"
+    },
+    {
+      "name": "BBB",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/home/sunbeam/BeagleBone_kernel_headers/kernel-headers/",
+        "/home/sunbeam/BeagleBone_kernel_headers/kernel-headers/include",
+        "/home/sunbeam/BeagleBone_kernel_headers/kernel-headers/generated",
+        "/home/sunbeam/BeagleBone_kernel_headers/kernel-headers/generated/uapi"
+      ],
+      "defines": ["__KERNEL__", "MODULE", "__GNUC__"],
+      "compilerPath": "/usr/bin/arm-linux-gnueabihf-gcc",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-arm"
+    }
+  ],
+  "version": 4
+}
